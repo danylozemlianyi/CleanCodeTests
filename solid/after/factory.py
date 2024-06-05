@@ -1,5 +1,11 @@
-from impl import (Database, EmailService, IDatabase, IEmailService,
-                  IPaymentProcessor, PaymentProcessor)
+from impl import (
+    Database,
+    EmailService,
+    IDatabase,
+    IEmailService,
+    IPaymentProcessor,
+    PaymentProcessor,
+)
 
 
 # Factory for creating dependencies
