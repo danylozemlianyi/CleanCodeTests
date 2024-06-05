@@ -15,7 +15,7 @@ class TestUserManager(unittest.TestCase):
         self.manager.insert_user('Test User', 20)
         users = self.manager.get_users()
         self.assertEqual(len(users), 1)
-        self.assertEqual(users[0][1], 'Test User')
+        self.assertEqual(users[0][1], 'Test Userr')
         self.assertEqual(users[0][2], 20)
 
         # Update user

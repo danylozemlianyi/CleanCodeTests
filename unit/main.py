@@ -6,7 +6,7 @@ class BankAccount:
     def deposit(self, amount: float):
         if amount <= 0:
             raise ValueError("Amount to deposit should be greater than zero.")
-        self.balance += amount
+        self.balance = amount
 
     def withdraw(self, amount: float):
         if amount <= 0:
